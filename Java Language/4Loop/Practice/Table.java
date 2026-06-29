@@ -7,6 +7,7 @@ public class Table {
         System.out.print("Enter a number : ");
         int num = sc.nextInt();
 
+        // Print Table
         for (int i=1;i<=10;i++) {
             System.out.println(num + " * " + i + " = " + (num*i));
         }
