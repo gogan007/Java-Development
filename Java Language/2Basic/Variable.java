@@ -7,6 +7,8 @@ public class Variable {
         System.out.println("The value of b is: " + b);
 
         int sum = a + b;
+        System.out.println(a + " + " + b + " = " + sum );
         System.out.println("The sum of a and b is: " + sum);
+           
     }
 }
