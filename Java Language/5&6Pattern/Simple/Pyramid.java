@@ -9,9 +9,13 @@ public class Pyramid {
         int r = sc.nextInt();
 
         for (int i=1;i<=r;i++) {
+
+            // for spacing
             for (int j=1;j<=r-i;j++){
             System.out.print(" ");
             }
+
+            // printing number with spacing
             for (int j=1;j<=i;j++) {
                 System.out.print(i + " ");
             }
