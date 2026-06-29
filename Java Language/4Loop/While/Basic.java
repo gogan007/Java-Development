@@ -1,6 +1,7 @@
 public class Basic {
     public static void main(String[] args) {
-        int i = 0;
+
+        int i = 1;
         while (i < 11){
             System.out.print(i + " ");
             i++;
