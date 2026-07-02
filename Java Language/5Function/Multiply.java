@@ -15,5 +15,7 @@ import java.util.Scanner;
 
        int result = mul(a, b);
        System.out.println(result);
+
+       sc.close();
    }
 }
