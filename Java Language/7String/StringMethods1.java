@@ -17,6 +17,14 @@ public class StringMethods1 {
             System.out.println("Strings are not same.");
         }
 
+        // equals
+        if (s1.equals(s2)) {
+            System.out.println("Strings are same.");
+        }
+        else {
+            System.out.println("Strings are nor same.");
+        }
+        
 
         // New string
         new String("Karmur");
