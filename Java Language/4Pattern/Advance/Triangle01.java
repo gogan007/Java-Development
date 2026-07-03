@@ -1,4 +1,3 @@
-package Simple;
 import java.util.Scanner;
 
 public class Triangle01 {
