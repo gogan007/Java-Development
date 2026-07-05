@@ -9,9 +9,9 @@ public class Selection {
    } 
  
    public static void main(String args[]) { 
-       int arr[] = {7, 8, 1, 3, 2}; 
+       int arr[] = {7, 3, 18, 48, 45}; 
  
-       //selection sort 
+       //Selection sort 
        for(int i=0; i<arr.length-1; i++) { 
            int min = i;
            for(int j=i+1; j<arr.length; j++) { 
@@ -19,7 +19,7 @@ public class Selection {
                    min = j; 
                } 
            } 
-           //swap 
+           //Swap 
            int temp = arr[min]; 
            arr[min] = arr[i]; 
            arr[i] = temp; 
