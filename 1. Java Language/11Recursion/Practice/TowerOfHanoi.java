@@ -7,8 +7,13 @@ public class TowerOfHanoi {
             System.out.println("Move Disk " + n + " : " + source + " --> " + destination);
             return;
         }
+
+        // Transfer top n-1 disks from sorce to helper using dest as intermidiate.
         towerOfHanoi(n-1, source, destination, helper);
+        // Transfer nth disk from sorce to destination.
         System.out.println("Move Disk " + n + " : " + source + " --> " + destination);
+
+        // Transfer n-1 disk from helper to destination using src as intermediate.
         towerOfHanoi(n-1, helper, source, destination);
     }
     public static void main(String[] args) {

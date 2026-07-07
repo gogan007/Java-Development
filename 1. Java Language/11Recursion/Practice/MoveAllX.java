@@ -16,6 +16,7 @@ public class MoveAllX {
             moveX(str, index+1, count, newStr);
         } else {
             newStr += currChar;
+            moveX(str, index+1, count, newStr);
         }
     }
     public static void main(String[] args) {

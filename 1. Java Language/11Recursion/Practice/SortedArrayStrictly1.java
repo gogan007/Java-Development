@@ -12,7 +12,6 @@ public class SortedArrayStrictly1 {
 
     public static void main(String args[]) {
         int arr1[] = { 1, 2, 3, 4, 5 };
-        int arr2[] = { 1, 6, 3, 4, 5 };
         if (sortedStrictly(arr1, 0)) {
             System.out.println("Strictly Increasing");
         } else {
