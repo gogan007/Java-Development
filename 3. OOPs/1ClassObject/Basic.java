@@ -12,8 +12,8 @@ public class Basic {
 
         Student pen1 = new Student();
 
-        pen1.name = "Blue";
-        pen1.age = "Gel";
+        pen1.color = "Blue";
+        pen1.type = "Gel";
 
         pen1.write();
 
