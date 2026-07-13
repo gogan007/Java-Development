@@ -14,19 +14,19 @@ class Pen {
 public class This {
     public static void main(String[] args) {
 
-        Student pen1 = new Student();
-        Student pen2 = new Student();
+        Pen pen1 = new Pen();
+        Pen pen2 = new Pen();
 
-        pen1.name = "Blue";
-        pen1.age = "Gel";
+        pen1.color = "Blue";
+        pen1.type = "Gel";
 
-        pen2.name = "Black";
-        pen2.age = "Ball Point";
+        pen2.color = "Black";
+        pen2.type = "Ball Point";
 
         pen1.write();
 
-        pen1.printInfo();
-        pen2.printInfo();
+        pen1.printColor();
+        pen2.printColor();
 
     }
 }

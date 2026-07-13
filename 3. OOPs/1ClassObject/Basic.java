@@ -1,4 +1,4 @@
-class Student {
+class Pen {
     String color; // Class data
     String type;
 
@@ -10,7 +10,7 @@ class Student {
 public class Basic {
     public static void main(String[] args) {
 
-        Student pen1 = new Student();
+        Pen pen1 = new Pen();
 
         pen1.color = "Blue";
         pen1.type = "Gel";
