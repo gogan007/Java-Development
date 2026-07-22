@@ -1,0 +1,22 @@
+1 --> java.lang
+This is the only package in Java that is automatically imported into every single program.
+String, Math, System, Integer, Character.
+
+2 --> java.util
+Contains the Collections Framework, legacy collection classes, event model, date and time facilities, and miscellaneous utility classes.
+Scanner, ArrayList, List, HashMap, HashSet, Stack, Queue, Arrays, Collections
+
+3 --> java.io
+Provides for system input and output through data streams, serialization, and the file system.
+BufferedReader, InputStreamReader, File
+
+Specialized Packages
+
+java.math
+Provides classes for performing arbitrary-precision integer arithmetic (BigInteger) and decimal arithmetic (BigDecimal). You will use this in advanced math-based DSA problems when a standard long or double isn't big enough.
+
+java.time
+The modern Date and Time API. (Replaced the older java.util.Date).
+
+java.net
+Classes for networking applications (building web servers, making HTTP requests).
