@@ -76,7 +76,6 @@ public class SearchIndex {
     }
 
     public static void main(String[] args) {
-        int size;
 
         SearchIndex num = new SearchIndex();
 
@@ -90,6 +89,6 @@ public class SearchIndex {
 
         num.printList();
 
-        num.searchEle(4);
+        num.searchEle(7);
     }
 }

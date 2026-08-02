@@ -125,7 +125,6 @@ public class ReverseList {
     }
 
     public static void main(String[] args) {
-        int size;
 
         ReverseList num = new ReverseList();
 
