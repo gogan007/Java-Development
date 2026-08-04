@@ -25,6 +25,7 @@ public class Basic {
 
             int top = list.get(list.size()-1);
             list.remove(list.size()-1);
+            // list.removeLast();
             return top;
         }
 
@@ -35,6 +36,7 @@ public class Basic {
                 return -1;
             }
             return list.get(list.size()-1);
+            // return list.getLast();
         }
 
     }
