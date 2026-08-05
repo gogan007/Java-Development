@@ -1,4 +1,4 @@
-public class Basic {
+public class SingleQueue {
 
     class Queue {
         int arr[];
@@ -58,14 +58,14 @@ public class Basic {
             }
 
             for (int i=0; i<=rear; i++) {
-                System.out.println(arr [i] + " ");
+                System.out.print(arr [i] + " ");
             }
         }
     }
 
     public static void main(String[] args) {
         
-        Basic obj = new Basic();
+        SingleQueue obj = new SingleQueue();
         Queue q = obj.new Queue(7);
 
         q.add(1);
@@ -73,10 +73,12 @@ public class Basic {
         q.add(3);
 
         q.printQueue();
+        System.out.println();
     
         q.remove();
 
         q.printQueue();
+        System.out.println();
 
         System.out.println("Front of Queue is : " + q.peek());
 
